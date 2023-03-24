@@ -38,14 +38,14 @@ a {
    width: 440px;
    margin: 230px auto;
    background-color: white;
-   padding: 20px;
+   padding: 10px;
    border-radius: 8px;
 }
 
 .bkm-img {
     width: 35px;
     align-items: center;
-    margin: 0 200px 205px;
+    margin: 0 200px 185px;
     position: absolute;
 }
 
@@ -59,33 +59,40 @@ h1 {
 .first-box p {
     font-size: 10px;
     text-align: center;
+    color: rgb(97, 97, 97);
 }
 
 .btn-first{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 .back-btn {
     width: 110px;
     font-size: 10px;
     padding: 12px;
-    margin: 30px auto;
+    margin: 30px 26px;
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    background:hsl(176, 72%, 28%)
+    background:hsl(176, 72%, 28%);
+    color: white;
+    font-weight: bold;
 }
 
+
 .bookmark-btn {
-    width: 120px;
+    width: 105px;
     font-size: 10px;
-    padding: 12px;
+    padding: 12px 8px;
     margin: 30px auto;
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    color: hsl(176, 72%, 28%);
+    font-weight: bold;
+    left: 100px;
 }
 
 .bookmark-btn:focus {
@@ -93,25 +100,82 @@ h1 {
 }
 
 
-.btn-img img {
-    position: absolute;
-    align-items: end;
-    left: 720px;
-    top: 358px;
-    cursor: pointer;
-    width: 35px;
-}
-
 .change-color {
-    filter: invert(37%) sepia(37%) saturate(864%) hue-rotate(127deg) brightness(96%) contrast(91%)
+    filter: invert(37%) sepia(37%) saturate(864%) hue-rotate(127deg) brightness(96%) contrast(91%);
+    position: relative;
+    align-items: end;
+    left: 258px;
+    top: 30px;
+    cursor: pointer;
+    width: 35px
 }
 
 .input-box {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    width: 400px;
-    margin: 200px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 440px;
+    margin: 140px auto;
     background-color: white;
-    padding: 40px;
+    padding: 10px;
+    border-radius: 8px;
+}
+    
+.div1 { grid-area: 3 / 2 / 4 / 3; }
+.div2 { grid-area: 3 / 3 / 4 / 4; }
+.div3 { grid-area: 3 / 4 / 4 / 5; }
+.div4 { grid-area: 4 / 2 / 5 / 3; }
+.div5 { grid-area: 4 / 3 / 5 / 4; }
+.div6 { grid-area: 4 / 4 / 5 / 5; }
+
+.input-box input {
+    width: 130px;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.input-box label {
+    width: 130px;
+    position: absolute;
+    font-size: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+
+
+/*.input-box {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;
+   width: 440px;
+   margin: 150px auto;
+   background-color: white;
+   padding: 10px;
+   border-radius: 8px;
+   
+}
+
+label {
+    font-size: 10px;
+    text-align: center;
+}
+
+.div1 .div2 {
+    flex-direction: column;
+}
+
+.div3 {
+    flex-direction: column;
+}
+
+.input-box input {
+    width: 150px;
+    text-align: center;
 }
