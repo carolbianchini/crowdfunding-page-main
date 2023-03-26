@@ -202,3 +202,9 @@ h2 {
 .about :nth-child(2) {
     margin: 15px auto;
 }
+
+.bamboo p {
+    color: rgb(97, 97, 97);
+    font-size: 12px;
+    font-weight: 500;
+}
