@@ -86,13 +86,17 @@ h1 {
     background:hsl(176, 72%, 28%);
     color: white;
     font-weight: bold;
+    transition: 420ms;
 }
 
+.back-btn:hover {
+    background-color: hsl(176, 50%, 47%);
+}
 
 .bookmark-btn {
     width: 105px;
     font-size: 10px;
-    padding: 12px 8px;
+    padding: 0 8px;
     margin: 30px auto;
     border: none;
     border-radius: 15px;
@@ -100,22 +104,26 @@ h1 {
     color: hsl(176, 72%, 28%);
     font-weight: bold;
     left: 100px;
+    transition: 420ms;
 }
 
-.bookmark-btn:focus {
-    background: grey;
+
+.bookmark-btn:hover {
+    background: rgb(119, 119, 119);
+    color: white;
 }
 
 
 .change-color {
     filter: invert(37%) sepia(37%) saturate(864%) hue-rotate(127deg) brightness(96%) contrast(91%);
     position: relative;
-    align-items: end;
-    left: 258px;
-    top: 30px;
+    align-items: start;
+    left: 256px;
     cursor: pointer;
-    width: 35px
+    width: 35px;
+    top: 30px;
 }
+
 
 .input-box {
     display: grid;
@@ -333,7 +341,7 @@ h1 {
 }  
 
 .mahogany {
-    margin: 15px auto;
+    margin: 1px auto;
     border: solid 1px  rgb(212, 208, 208);
     border-radius: 6px;
     padding: 15px 20px;
