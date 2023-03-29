@@ -534,20 +534,14 @@ input:focus {
 }
 
 .mahogany label {
-    position: relative;
-    left: 25px;
-    bottom: 40px;
+    margin: 0 auto;
 }
 
 .black-edt label {
-    position: relative;
-    left: 35px;
-    bottom: 40px;
+    margin: 0 auto;
 }
 
 .bamboo label {
-    position: relative;
-    left: 40px;
-    bottom: 40px;
+    margin: 0 auto;
 }
 }
