@@ -1,4 +1,4 @@
-<h1>Página Principal de Produtos de Crowfunding</h1>
+<h1>Página Principal de Produtos de Crowdfunding</h1>
 
 ## Índice
 
@@ -13,7 +13,7 @@
 
 :construction: Projeto em construção :construction:
 
-Página de produtos de crowfunding que o usuário consegue acompanhar em tempo real suas escolhas e status de quantidades disponíveis, valores, etc. 
+Página de produtos de crowdfunding que o usuário consegue acompanhar em tempo real suas escolhas e status de quantidades disponíveis, valores, etc. 
 
 ![Captura da Web_28-3-2023_224255_](https://user-images.githubusercontent.com/122060348/228404743-4d8a9f3a-cfd4-423b-9ab2-154c929292b5.jpeg)
 
