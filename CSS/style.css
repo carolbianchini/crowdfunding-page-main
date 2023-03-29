@@ -315,7 +315,7 @@ h1 {
     color: hsl(176, 50%, 47%);
     font-weight: 600;
     position: relative;
-    right: 105px;
+    right: 110px;
 }
 
 .black-edt input {
@@ -331,7 +331,7 @@ h1 {
     font-size: 12px;
     font-weight: 500;
     position: relative;
-    right: 200px;
+    right: 210px;
 }
 
 .reward {
@@ -385,6 +385,16 @@ h3 {
     left: 35px;
 }
 
+
+.mahogany h3 {
+    margin: 10px auto;
+    font-size: 10.5px;
+    color: hsl(176, 50%, 47%);
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+}
+
 .mahogany input {
     border: none;
     font-size: 20px;
@@ -398,7 +408,7 @@ h3 {
     font-size: 12px;
     font-weight: 500;
     position: relative;
-    right: 200px;
+    right: 221px;
 }
 
 .out-of-stock {
