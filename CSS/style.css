@@ -93,6 +93,10 @@ h1 {
     background-color: hsl(176, 50%, 47%);
 }
 
+.reward:hover {
+    background-color: hsl(176, 50%, 47%);
+}
+
 .bookmark-btn {
     width: 105px;
     font-size: 10px;
@@ -109,8 +113,8 @@ h1 {
 
 
 .bookmark-btn:hover {
-    background: rgb(119, 119, 119);
-    color: white;
+    background: rgb(201, 200, 200);
+    color: black;
 }
 
 
@@ -134,7 +138,7 @@ h1 {
     width: 440px;
     margin: 0 auto;
     position: relative;
-    top: 140px;
+    top: 130px;
     background-color: white;
     padding: 0 10px 25px;
     border-radius: 8px;
@@ -169,7 +173,7 @@ h1 {
     width: 100%;
     height: 10px;
     border-radius: 10px;
-    background-color: #ccc;
+    background-color: #dddcdc;
     top: 20px;
     position: relative;
     margin: 5px auto;
@@ -179,6 +183,7 @@ h1 {
     height: 95%;
     border-radius: 10px;
     background-color:hsl(176, 50%, 47%);
+    width: 80%;
 }
 
 .about-box {
@@ -186,7 +191,7 @@ h1 {
    display: flex;
    flex-direction: column; 
    justify-content: center;
-   margin: 0 auto;
+   margin: 145px auto;
    position: relative;
    background-color: white;
    padding: 10px 25px;
@@ -196,7 +201,7 @@ h1 {
 .about-box h2 {
     font-size: 15px;
     font-weight: bold;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: left;
 }
 
@@ -273,6 +278,7 @@ h1 {
     background:hsl(176, 72%, 28%);
     color: white;
     font-weight: bold;
+    transition: 420ms;
 } 
 
 .black-edt {
@@ -341,10 +347,12 @@ h1 {
 }  
 
 .mahogany {
-    margin: 1px auto;
+    margin: 15px auto;
     border: solid 1px  rgb(212, 208, 208);
     border-radius: 6px;
     padding: 15px 20px;
+    opacity: 60%;
+    font-weight: bold;
 }
 
 .mahogany h2 {
@@ -400,7 +408,136 @@ h3 {
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    background:hsl(176, 72%, 28%);
+    background:rgb(97, 97, 97);
     color: white;
     font-weight: bold;
-}  
+}
+
+input:focus {
+    box-shadow:  0 0 0 0;
+    outline: 0;
+}
+
+@media screen and (max-width: 600px) {
+
+   .initial li {
+    display: none;
+   }
+
+    header {
+    background-image: url(../images/image-hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+    flex-direction: column; 
+    justify-content: center;
+    display: flex;
+   }
+   .first-box {
+    width: auto;
+    text-align: center;
+    margin: 0 20px;
+    position: relative;
+    top: 185px;
+   }
+
+   .bkm-img {
+    width: 35px;
+    margin: 0 0 185px 140px;
+    position: absolute;
+}
+
+.input-box {
+    width: auto;
+    text-align: center;
+    margin: 4px 20px;
+    position: relative;
+    top: 130px;
+    padding: 0;
+   }
+
+   .bookmark-btn {
+    display: none;
+   }
+
+   .back-btn {
+    position: relative;
+    right: 160px;
+}
+
+.input-box input {
+    width: 90px;
+}
+
+.input-box label {
+    width: 90px;   
+    position: relative;
+    margin: 5px auto;
+}
+
+.barra {
+    position: relative;
+    top: 3px;
+    text-align: center;
+
+}
+
+.about-box {
+    width: auto;
+    text-align: left;
+    margin: 20px 20px;
+    top: 123px;
+}
+
+.bamboo h2 {
+    position: relative;
+    right: 14px;
+}
+
+.bamboo h3 {
+    position: relative;
+    left: 20px;
+}
+
+.black-edt h3 {
+    position: relative;
+    left: 15px;
+    bottom: 6px;
+}
+
+.mahogany h3 {
+    position: relative;
+    left: 10px;
+    bottom: 6px;
+}
+
+.black-edt h2 {
+    text-align: left;
+    margin: 0 0 0 40px; 
+}
+
+.mahogany h2 {
+    text-align: left;
+    margin: 0 0 0 26px; 
+}
+
+.mahogany label {
+    position: relative;
+    left: 25px;
+    bottom: 40px;
+}
+
+.black-edt label {
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+}
+
+.bamboo label {
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+}
+}
